@@ -89,6 +89,7 @@ img {
 
 .col .layover {
     height: 200px;
+    border-radius: 1em;
 }
 
 .banner-text {
