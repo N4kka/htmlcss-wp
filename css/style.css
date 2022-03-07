@@ -31,7 +31,7 @@ img {
 }
 
 .container {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     max-width: 1400px;
 }
@@ -77,8 +77,38 @@ img {
 
 /* MAIN */
 .banner {
-    height: 250px;
-    background-color: #e1d67a;
+    height: 400px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 1em;
+    overflow: hidden;
+    position: relative;
+}
+
+.layover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.banner-text {
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.banner-text h2{
+    font-size: 2.5em;
+}
+
+.banner-text p {
+    font: 1,5em;
 }
 
 .content {
