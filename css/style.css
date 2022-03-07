@@ -1,0 +1,88 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* DEBUG RULES */
+.debut .content-top,
+.debug .col {
+    background-color: #abcfe7;
+}
+
+.debug .content {
+    background-color: #0086ff;
+}
+
+/* COMMON */
+
+html{
+    font-size: 62.5%;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+.mb-1 {
+    margin-bottom: 1em;
+}
+
+.mb-2 {
+    margin-bottom: 2em;
+}
+
+/* HEADER */
+header {
+    height: 80px;
+    background-color: #e579e6;
+}
+
+/* MAIN */
+.banner {
+    height: 250px;
+    background-color: #e1d67a;
+}
+
+.content {
+    padding-bottom: 2em;
+}
+
+.content-top {
+    height: 60px;
+    background-color: #abcfe7;
+}
+
+.col {
+    height: 350px;
+}
+
+.col-side {
+    width: 25%;
+}
+
+.col-center {
+    width: 46%;
+    margin: 0 2%;
+}
+
+/* FOOTER */
+footer {
+    height: 50px;
+    background-color: #8701fe;
+}
